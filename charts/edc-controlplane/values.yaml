@@ -117,6 +117,14 @@ edc:
       port: "9999"
       # -- The path mapping the "control" api is going to be exposed at
       path: /api/controlplane/control
+
+    ## Management API
+    management:
+      # -- The network port, which the "management" api is going to be exposed by the container, pod and service
+      port: "9988"
+      # -- The path mapping the "management" api is going to be exposed at
+      path: /management
+
     ## IDS endpoints
     ids:
       # -- The network port, which the "ids" multipart api is going to be exposed by the container, pod and service

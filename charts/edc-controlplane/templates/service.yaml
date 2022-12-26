@@ -33,9 +33,5 @@ spec:
       targetPort: metrics
       protocol: TCP
       name: metrics
-    - port: { { .Values.edc.endpoints.management.port } }
-      targetPort: management
-      protocol: TCP
-      name: management
   selector:
     {{- include "edc-controlplane.selectorLabels" . | nindent 4 }}

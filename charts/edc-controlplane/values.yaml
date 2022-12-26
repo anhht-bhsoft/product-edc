@@ -112,11 +112,11 @@ edc:
       # -- The path mapping the "validation" api is going to be exposed at
       path: /validation
     ## Control API
-    control:
-      # -- The network port, which the "control" api is going to be exposed by the container, pod and service
-      port: "9999"
-      # -- The path mapping the "control" api is going to be exposed at
-      path: /api/controlplane/control
+#    control:
+#      # -- The network port, which the "control" api is going to be exposed by the container, pod and service
+#      port: "9999"
+#      # -- The path mapping the "control" api is going to be exposed at
+#      path: /api/controlplane/control
 
     ## Management API
     management:

@@ -565,3 +565,5 @@ sokratesedccontrolplane:
     # see extension https://github.com/catenax-ng/product-edc/tree/develop/edc-extensions/data-encryption
     EDC_DATA_ENCRYPTION_KEYS_ALIAS: data-encryption-aes-keys
     EDC_DATA_ENCRYPTION_ALGORITHM: AES
+
+# Update something
